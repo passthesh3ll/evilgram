@@ -3,9 +3,9 @@
 
 ## Description
 
-A telegram bot to anonymously get new instagram stories from a target profile and store them to a telegram chat. Instaloader is used to scrape and filter new Instagram stories.
+A telegram bot to anonymously get new Instagram stories from a target profile and store them in a telegram chat. Instaloader is used to scrape and filter new Instagram stories.
 
-**You can use different instaloader cookies to handle/bypass private profiles**
+**You may use different instaloader cookies to access/bypass private profiles**
 
 ## Dependencies
 
