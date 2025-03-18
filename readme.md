@@ -3,7 +3,7 @@
 
 ## Description
 
-This telegram bot retrieves and sends new Instagram stories of a target profile to a Telegram chat anonymously. It utilizes Instaloader to scrape Instagram data, it filters and sends only new stories.
+This telegram bot anonymously retrieves new Instagram stories of a target profile and send them to a Telegram chat. It utilizes Instaloader to scrape Instagram data, it filters and sends only new stories.
 
 **You can use different instaloader cookies to handle/bypass private profiles**
 
