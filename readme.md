@@ -32,7 +32,7 @@ MY_INSTAGRAM_USERNAME= ''
 ```
 5. Execute the bot from your terminal (you can schedule the bot with cron to get periodic updates about a profile)
 ```bash
-python your_script_name.py TARGET_INSTAGRAM_USERNAME
+python evilgram.py TARGET_INSTAGRAM_USERNAME
 ```
 6. You can schedule the bot with cron
 
