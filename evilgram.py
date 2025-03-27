@@ -1,4 +1,5 @@
 import requests, json, base64, os, sys, telegram, asyncio, datetime, instaloader
+from datetime import datetime
 from instaloader import ProfileNotExistsException, PrivateProfileNotFollowedException
 
 # GLOBAL INSTANCE OF INSTALOADER
@@ -71,7 +72,7 @@ def request_stories(username):
             with open(output_file, 'w') as f:
                 json.dump(stored_stories, f, indent=4)
 
-            return new_stories
+            return sorted(new_stories, key=lambda x: datetime.fromisoformat(x['date']))
         else:
             return "All new stories have been logged."
 
